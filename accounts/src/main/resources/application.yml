@@ -14,3 +14,20 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  profiles:
+    active: qa
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to Bank accounts related local APIs "
+  contactDetails:
+    name: "Laman - Developer"
+    email: "dev@gmail.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345

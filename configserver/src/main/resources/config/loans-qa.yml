@@ -1,0 +1,10 @@
+build:
+  version: "2.0"
+loans:
+  message: "Welcome to Bank loans related QA APIs"
+  contactDetails:
+    name: "John QA Lead"
+    email: "john@bank.com"
+  onCallSupport:
+    - (785) 545-6565
+    - (853) 546-3467

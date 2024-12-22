@@ -78,7 +78,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <image>
-                        <name>lyamandev/${project.artifactId}:s4</name>
+                        <name>lyamandev/${project.artifactId}:s6</name>
                     </image>
                 </configuration>
             </plugin>

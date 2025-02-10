@@ -15,12 +15,7 @@ spring:
     init:
       mode: always
   config:
-    import: "configserver:http://localhost:8071/"
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+    import: "optional:configserver:http://localhost:8071/"
 management:
   endpoints:
     web:
